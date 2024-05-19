@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #e5cfcd;
+  color: #564e4e;
+  margin: 0;
+}
+
+img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 15px;
+  background-color: #d5c5b3;
+  color: #272626;
+  border-radius: 25px;
+}
+
+#bloco1 h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#bloco1 p {
+  text-align: justify;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #666;
+}
+
+figure {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+img {
+  border: 1px solid #9a8ec2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 10px;
+}
+
+.receita {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
